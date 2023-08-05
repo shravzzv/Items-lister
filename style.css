@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1d9345;
+  padding: 0.5em auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__logo {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.header__search {
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+}
+
+.main {
+  margin: 1em auto;
+  border: 1px solid lightgray;
+  padding: 1em;
+  width: 80%;
+  max-width: 500px;
+}
+
+.main__input {
+  border-radius: 1em;
+  border: 1px solid black;
+  font-size: 1.25rem;
+  max-width: 80%;
+  outline: none;
+  padding: 0.25em 1em;
+}
+
+.main__submit {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  margin: 0.2em;
+  font-size: 1.2rem;
+  border-radius: 1em;
+  padding: 0.25em 1em;
+}
+
+.main__items {
+  border: 1px solid gray;
+  border-radius: 1em;
+}
+
+.main__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25em 1em;
+}
+
+.main__item + .main__item {
+  border-top: 1px solid lightgray;
+}
+
+.main__delete {
+  color: white;
+  background-color: rgb(234, 69, 69);
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+/* On screens that are 380px or less */
+@media screen and (max-width: 380px) {
+  .main__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .header__logo {
+    font-size: 1rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background-color: #212221;
+  }
+
+  .main__submit {
+    background-color: white;
+    color: black;
+  }
+}
