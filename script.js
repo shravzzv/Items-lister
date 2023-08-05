@@ -36,7 +36,7 @@ const handleSubmit = (e) => {
 }
 
 const removeItem = (e) => {
-  e.target.parentNode.remove()
+  confirm('Are you sure?') ? e.target.parentNode.remove() : null
 }
 
 // event listeners
