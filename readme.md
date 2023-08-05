@@ -1,6 +1,6 @@
 # Items Lister
 
-The Items Lister project is designed to help me learn DOM manipulation by creating a simple item lister using HTML, CSS, and JavaScript.
+The Items Lister project is designed to help me learn DOM manipulation by creating a simple items lister using HTML, CSS, and JavaScript.
 
 ![homepage](https://res.cloudinary.com/dmt9s5xlh/image/upload/v1691230284/Items%20Lister/items_lister_nap6y6.jpg)
 
@@ -8,7 +8,6 @@ The Items Lister project is designed to help me learn DOM manipulation by creati
 
 - Add items to the list dynamically.
 - Remove items from the list.
-- Mark items as completed.
 
 ## Getting Started
 
