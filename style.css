@@ -66,6 +66,7 @@ ul {
 .main__items {
   border: 1px solid gray;
   border-radius: 1em;
+  min-height: 65px;
 }
 
 .main__item {
@@ -73,6 +74,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding: 0.25em 1em;
+  min-height: 65px;
 }
 
 .main__item + .main__item {
