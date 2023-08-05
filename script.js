@@ -1,12 +1,7 @@
-const addItemInputElement = document.querySelector('.main__input')
-const submitButtonElement = document.querySelector('.main__submit')
-
 const mainFormElement = document.querySelector('.main__form')
+const itemDeleteButtonElement = document.querySelectorAll('.main__delete')
 
 const itemsListElement = document.querySelector('.main__items')
-const itemListElement = document.querySelector('.main__item')
-const itemTextElement = document.querySelector('.main__text')
-const itemDeleteButtonElement = document.querySelectorAll('.main__delete')
 
 // event handlers
 
