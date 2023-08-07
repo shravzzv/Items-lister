@@ -4,6 +4,12 @@ const itemDeleteButtonElement = document.querySelectorAll('.main__delete')
 const itemsListElement = document.querySelector('.main__items')
 
 // event handlers
+const handleSubmit = (e) => {
+  e.preventDefault()
+  let inputText = e.target[0].value.trim()
+  inputText && addItem(inputText)
+  e.target.reset()
+}
 
 const addItem = (text) => {
   let newItem = document.createElement('li')
